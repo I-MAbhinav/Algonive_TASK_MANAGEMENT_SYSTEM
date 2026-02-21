@@ -22,3 +22,5 @@ A modern, responsive task management tool for small teams.
     ```
 
 3.  Open `http://localhost:5173` to view it in the browser.
+
+#A demo project model of Task Manager for Learning Purpose .
