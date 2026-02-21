@@ -1,0 +1,54 @@
+Task Management App 
+
+Goal Description
+
+Develop a responsive, visually stunning task management web application for small teams. The app will feature a color gradient animated background, user authentication (simulated), task assignment, status tracking, and deadline reminders. The code will be clean and devoid of unnecessary boilerplate.
+
+Configuration[NEW] 
+package.json
+React + Vite setup.
+
+Styles
+[NEW] 
+index.css
+Global styles.
+
+Key Feature: Animated CSS gradient background.
+Reset and typography (Inter/Outfit).
+
+Components
+[NEW] 
+App.jsx
+
+Main application logic.
+State management for Tasks and Auth.
+[NEW] 
+components/Auth.jsx
+
+Login/Signup form with validation.
+[NEW] 
+components/Dashboard.jsx
+
+Task board view.
+Filter by status (Pending, In Progress, Completed).
+[NEW] 
+
+components/TaskCard.jsx
+Individual task display.
+Status update controls.
+
+Assignee and deadline display.
+[NEW] 
+components/TaskModal.jsx
+Form to add/edit tasks.
+Verification Plan
+Automated Tests
+
+Run npm run dev to verify the application loads without errors.
+
+Manual Verification
+
+Auth: User can sign up and log in (simulated).
+Task Creation: Create a task with title, assignee, deadline.
+Status: Move task from Pending -> In Progress -> Completed.
+UI: Verify the background gradient animation is smooth and looks premium.
